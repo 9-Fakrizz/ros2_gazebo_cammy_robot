@@ -1,0 +1,112 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/tony/drive_robot_ws/src/articubot_one/build/articubot_one
+-- Install configuration: ""
+-- Installing: /home/tony/drive_robot_ws/src/articubot_one/install/articubot_one/share/articubot_one/config
+-- Installing: /home/tony/drive_robot_ws/src/articubot_one/install/articubot_one/share/articubot_one/config/controller.yaml
+-- Installing: /home/tony/drive_robot_ws/src/articubot_one/install/articubot_one/share/articubot_one/description
+-- Installing: /home/tony/drive_robot_ws/src/articubot_one/install/articubot_one/share/articubot_one/description/cam
+-- Installing: /home/tony/drive_robot_ws/src/articubot_one/install/articubot_one/share/articubot_one/description/cam/cam.blend
+-- Installing: /home/tony/drive_robot_ws/src/articubot_one/install/articubot_one/share/articubot_one/description/cam/cam.blend1
+-- Installing: /home/tony/drive_robot_ws/src/articubot_one/install/articubot_one/share/articubot_one/description/cam/cam.dae
+-- Installing: /home/tony/drive_robot_ws/src/articubot_one/install/articubot_one/share/articubot_one/description/gripper_tr.xacro
+-- Installing: /home/tony/drive_robot_ws/src/articubot_one/install/articubot_one/share/articubot_one/description/wheel
+-- Installing: /home/tony/drive_robot_ws/src/articubot_one/install/articubot_one/share/articubot_one/description/wheel/wheel.blend
+-- Installing: /home/tony/drive_robot_ws/src/articubot_one/install/articubot_one/share/articubot_one/description/wheel/wheel.dae
+-- Installing: /home/tony/drive_robot_ws/src/articubot_one/install/articubot_one/share/articubot_one/description/inertial_macros.xacro
+-- Installing: /home/tony/drive_robot_ws/src/articubot_one/install/articubot_one/share/articubot_one/description/arm_cam
+-- Installing: /home/tony/drive_robot_ws/src/articubot_one/install/articubot_one/share/articubot_one/description/arm_cam/arm_cam.dae
+-- Installing: /home/tony/drive_robot_ws/src/articubot_one/install/articubot_one/share/articubot_one/description/arm_cam/arm_cam.blend
+-- Installing: /home/tony/drive_robot_ws/src/articubot_one/install/articubot_one/share/articubot_one/description/arm_cam/arm_cam.blend1
+-- Installing: /home/tony/drive_robot_ws/src/articubot_one/install/articubot_one/share/articubot_one/description/robot_core.xacro
+-- Installing: /home/tony/drive_robot_ws/src/articubot_one/install/articubot_one/share/articubot_one/description/arm2
+-- Installing: /home/tony/drive_robot_ws/src/articubot_one/install/articubot_one/share/articubot_one/description/arm2/arm_2.blend1
+-- Installing: /home/tony/drive_robot_ws/src/articubot_one/install/articubot_one/share/articubot_one/description/arm2/arm_2.dae
+-- Installing: /home/tony/drive_robot_ws/src/articubot_one/install/articubot_one/share/articubot_one/description/arm2/arm_2.blend
+-- Installing: /home/tony/drive_robot_ws/src/articubot_one/install/articubot_one/share/articubot_one/description/lidar.xacro
+-- Installing: /home/tony/drive_robot_ws/src/articubot_one/install/articubot_one/share/articubot_one/description/robot.urdf.xacro
+-- Installing: /home/tony/drive_robot_ws/src/articubot_one/install/articubot_one/share/articubot_one/description/install
+-- Installing: /home/tony/drive_robot_ws/src/articubot_one/install/articubot_one/share/articubot_one/description/install/_local_setup_util_ps1.py
+-- Installing: /home/tony/drive_robot_ws/src/articubot_one/install/articubot_one/share/articubot_one/description/install/setup.zsh
+-- Installing: /home/tony/drive_robot_ws/src/articubot_one/install/articubot_one/share/articubot_one/description/install/local_setup.bash
+-- Installing: /home/tony/drive_robot_ws/src/articubot_one/install/articubot_one/share/articubot_one/description/install/_local_setup_util_sh.py
+-- Installing: /home/tony/drive_robot_ws/src/articubot_one/install/articubot_one/share/articubot_one/description/install/local_setup.sh
+-- Installing: /home/tony/drive_robot_ws/src/articubot_one/install/articubot_one/share/articubot_one/description/install/setup.sh
+-- Installing: /home/tony/drive_robot_ws/src/articubot_one/install/articubot_one/share/articubot_one/description/install/COLCON_IGNORE
+-- Installing: /home/tony/drive_robot_ws/src/articubot_one/install/articubot_one/share/articubot_one/description/install/setup.bash
+-- Installing: /home/tony/drive_robot_ws/src/articubot_one/install/articubot_one/share/articubot_one/description/install/local_setup.zsh
+-- Installing: /home/tony/drive_robot_ws/src/articubot_one/install/articubot_one/share/articubot_one/description/install/local_setup.ps1
+-- Installing: /home/tony/drive_robot_ws/src/articubot_one/install/articubot_one/share/articubot_one/description/install/setup.ps1
+-- Installing: /home/tony/drive_robot_ws/src/articubot_one/install/articubot_one/share/articubot_one/description/install/.colcon_install_layout
+-- Installing: /home/tony/drive_robot_ws/src/articubot_one/install/articubot_one/share/articubot_one/description/gazebo_control.xacro
+-- Installing: /home/tony/drive_robot_ws/src/articubot_one/install/articubot_one/share/articubot_one/description/log
+-- Installing: /home/tony/drive_robot_ws/src/articubot_one/install/articubot_one/share/articubot_one/description/log/COLCON_IGNORE
+-- Installing: /home/tony/drive_robot_ws/src/articubot_one/install/articubot_one/share/articubot_one/description/log/build_2024-01-01_21-42-37
+-- Installing: /home/tony/drive_robot_ws/src/articubot_one/install/articubot_one/share/articubot_one/description/log/build_2024-01-01_21-42-37/events.log
+-- Installing: /home/tony/drive_robot_ws/src/articubot_one/install/articubot_one/share/articubot_one/description/log/build_2024-01-01_21-42-37/logger_all.log
+-- Installing: /home/tony/drive_robot_ws/src/articubot_one/install/articubot_one/share/articubot_one/description/log/latest_build
+-- Installing: /home/tony/drive_robot_ws/src/articubot_one/install/articubot_one/share/articubot_one/description/log/latest
+-- Installing: /home/tony/drive_robot_ws/src/articubot_one/install/articubot_one/share/articubot_one/description/build
+-- Installing: /home/tony/drive_robot_ws/src/articubot_one/install/articubot_one/share/articubot_one/description/build/COLCON_IGNORE
+-- Installing: /home/tony/drive_robot_ws/src/articubot_one/install/articubot_one/share/articubot_one/description/build/.built_by
+-- Installing: /home/tony/drive_robot_ws/src/articubot_one/install/articubot_one/share/articubot_one/description/text
+-- Installing: /home/tony/drive_robot_ws/src/articubot_one/install/articubot_one/share/articubot_one/description/body
+-- Installing: /home/tony/drive_robot_ws/src/articubot_one/install/articubot_one/share/articubot_one/description/body/body_cammy.blend1
+-- Installing: /home/tony/drive_robot_ws/src/articubot_one/install/articubot_one/share/articubot_one/description/body/body_cammy.dae
+-- Installing: /home/tony/drive_robot_ws/src/articubot_one/install/articubot_one/share/articubot_one/description/body/body_cammy.blend
+-- Installing: /home/tony/drive_robot_ws/src/articubot_one/install/articubot_one/share/articubot_one/description/arm_base
+-- Installing: /home/tony/drive_robot_ws/src/articubot_one/install/articubot_one/share/articubot_one/description/arm_base/arm_base.blend1
+-- Installing: /home/tony/drive_robot_ws/src/articubot_one/install/articubot_one/share/articubot_one/description/arm_base/arm_base.blend
+-- Installing: /home/tony/drive_robot_ws/src/articubot_one/install/articubot_one/share/articubot_one/description/arm_base/arm_base.dae
+-- Installing: /home/tony/drive_robot_ws/src/articubot_one/install/articubot_one/share/articubot_one/launch
+-- Installing: /home/tony/drive_robot_ws/src/articubot_one/install/articubot_one/share/articubot_one/launch/launch_sim.launch.py
+-- Installing: /home/tony/drive_robot_ws/src/articubot_one/install/articubot_one/share/articubot_one/launch/rsp.launch.py
+-- Installing: /home/tony/drive_robot_ws/src/articubot_one/install/articubot_one/share/articubot_one/worlds
+-- Installing: /home/tony/drive_robot_ws/src/articubot_one/install/articubot_one/share/articubot_one/worlds/model.config
+-- Installing: /home/tony/drive_robot_ws/src/articubot_one/install/articubot_one/share/articubot_one/worlds/model.sdf
+-- Installing: /home/tony/drive_robot_ws/src/articubot_one/install/articubot_one/lib/articubot_one/controller.py
+-- Installing: /home/tony/drive_robot_ws/src/articubot_one/install/articubot_one/share/ament_index/resource_index/package_run_dependencies/articubot_one
+-- Installing: /home/tony/drive_robot_ws/src/articubot_one/install/articubot_one/share/ament_index/resource_index/parent_prefix_path/articubot_one
+-- Installing: /home/tony/drive_robot_ws/src/articubot_one/install/articubot_one/share/articubot_one/environment/ament_prefix_path.sh
+-- Installing: /home/tony/drive_robot_ws/src/articubot_one/install/articubot_one/share/articubot_one/environment/ament_prefix_path.dsv
+-- Installing: /home/tony/drive_robot_ws/src/articubot_one/install/articubot_one/share/articubot_one/environment/path.sh
+-- Installing: /home/tony/drive_robot_ws/src/articubot_one/install/articubot_one/share/articubot_one/environment/path.dsv
+-- Installing: /home/tony/drive_robot_ws/src/articubot_one/install/articubot_one/share/articubot_one/local_setup.bash
+-- Installing: /home/tony/drive_robot_ws/src/articubot_one/install/articubot_one/share/articubot_one/local_setup.sh
+-- Installing: /home/tony/drive_robot_ws/src/articubot_one/install/articubot_one/share/articubot_one/local_setup.zsh
+-- Installing: /home/tony/drive_robot_ws/src/articubot_one/install/articubot_one/share/articubot_one/local_setup.dsv
+-- Installing: /home/tony/drive_robot_ws/src/articubot_one/install/articubot_one/share/articubot_one/package.dsv
+-- Installing: /home/tony/drive_robot_ws/src/articubot_one/install/articubot_one/share/ament_index/resource_index/packages/articubot_one
+-- Installing: /home/tony/drive_robot_ws/src/articubot_one/install/articubot_one/share/articubot_one/cmake/articubot_oneConfig.cmake
+-- Installing: /home/tony/drive_robot_ws/src/articubot_one/install/articubot_one/share/articubot_one/cmake/articubot_oneConfig-version.cmake
+-- Installing: /home/tony/drive_robot_ws/src/articubot_one/install/articubot_one/share/articubot_one/package.xml
