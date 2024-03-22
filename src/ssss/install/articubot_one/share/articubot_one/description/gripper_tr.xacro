@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://ros.org/wiki/xacro">
+
+    <xacro:macro name="gripper1_tr" params="">
+        <joint name="base_arm_joint">
+        <command_interface name="velocity">
+            <param name="min">-10.0</param>
+            <param name="max">10.0</param>
+        </command_interface>
+        <state_interface name="position" />
+        <state_interface name="velocity" />
+        </joint>
+    </xacro:macro>
+    
+    <xacro:macro name="gripper2_tr" params="">
+        <joint name="mid_arm_joint">
+        <command_interface name="velocity">
+            <param name="min">-10.0</param>
+            <param name="max">10.0</param>
+        </command_interface>
+        <state_interface name="position" />
+        <state_interface name="velocity" />
+        </joint>
+    </xacro:macro>
+</robot>
