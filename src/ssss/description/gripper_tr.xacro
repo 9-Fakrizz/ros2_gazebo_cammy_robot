@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://ros.org/wiki/xacro">
+
+    <xacro:macro name="gripper1_tr" params="">
+        <joint name="base_arm_joint">
+        <command_interface name="velocity">
+            <param name="min">-10.0</param>
+            <param name="max">10.0</param>
+        </command_interface>
+        <state_interface name="position" />
+        <state_interface name="velocity" />
+        </joint>
+    </xacro:macro>
+    
+    <xacro:macro name="gripper2_tr" params="">
+        <joint name="mid_arm_joint">
+        <command_interface name="velocity">
+            <param name="min">-10.0</param>
+            <param name="max">10.0</param>
+        </command_interface>
+        <state_interface name="position" />
+        <state_interface name="velocity" />
+        </joint>
+    </xacro:macro>
+    <xacro:macro name="gripper3_tr" params="">
+        <joint name="cam_arm_joint">
+        <command_interface name="velocity">
+            <param name="min">-10.0</param>
+            <param name="max">10.0</param>
+        </command_interface>
+        <state_interface name="position" />
+        <state_interface name="velocity" />
+        </joint>
+    </xacro:macro>
+    <xacro:macro name="gripper4_tr" params="">
+        <joint name="cam_joint">
+        <command_interface name="velocity">
+            <param name="min">-10.0</param>
+            <param name="max">10.0</param>
+        </command_interface>
+        <state_interface name="position" />
+        <state_interface name="velocity" />
+        </joint>
+    </xacro:macro>
+
+
+    <!-- 2 OF WHEELS -->
+    <xacro:macro name="leftbackwheel_tr" params="">
+        <joint name="leftback_wheel_joint">
+        <command_interface name="velocity">
+            <param name="min">-10.0</param>
+            <param name="max">10.0</param>
+        </command_interface>
+        <state_interface name="position" />
+        <state_interface name="velocity" />
+        </joint>
+    </xacro:macro>
+    <xacro:macro name="rightbackwheel_tr" params="">
+        <joint name="rightback_wheel_joint">
+        <command_interface name="velocity">
+            <param name="min">-10.0</param>
+            <param name="max">10.0</param>
+        </command_interface>
+        <state_interface name="position" />
+        <state_interface name="velocity" />
+        </joint>
+    </xacro:macro>
+</robot>
